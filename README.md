@@ -193,6 +193,10 @@ You decide what AI agents can do with each connected account:
 - **Official Snapchat Marketing API** - Direct integration with Snap's API
 - **OAuth 2.0** - Secure authentication
 
+## Pricing
+
+The Snapchat Ads MCP server is included in every InsightfulPipe plan, together with all other MCP servers and the CLI. Plans start at $29.99/month with a 7-day free trial. See [insightfulpipe.com/pricing](https://insightfulpipe.com/pricing) for current plans.
+
 ## Ready-Made Skills and Prompts
 
 - [Claude skills for social media ads](https://insightfulpipe.com/marketing-claude-skills/social-media-ads) — ready-made skills that run on your connected data
