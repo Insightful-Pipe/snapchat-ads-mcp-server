@@ -72,12 +72,20 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 ## Available Actions
 
-32 actions: 24 read, 8 write.
+43 actions: 35 read, 8 write.
 
-### Read Actions (24)
+### Read Actions (35)
+
+<details>
+<summary>Show all 35 read actions</summary>
 
 | Action | Description |
 |--------|-------------|
+| `adaccount` | Fetch details for a single ad account (legacy alias for get_adaccount) |
+| `ads` | List ads for an ad account (legacy alias for get_ads) |
+| `adsquads` | List ad squads for an ad account (legacy alias for get_adsquads) |
+| `campaigns` | List campaigns for an ad account (legacy alias for get_campaigns) |
+| `creatives` | List creatives for an ad account (legacy alias for get_creatives) |
 | `get_ad` | Fetch a single ad, e.g. to read its current values before updating it |
 | `get_ad_stats` | Retrieve performance statistics for a specific ad |
 | `get_adaccount` | Fetch details for a single ad account |
@@ -102,6 +110,14 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `get_organization` | Fetch details for a single organization |
 | `get_organizations` | List organizations the authenticated user can access |
 | `get_segments` | List audience segments for an ad account |
+| `media_detail` | Fetch metadata for a single media asset (legacy alias for get_media_detail) |
+| `media_preview` | Retrieve a preview URL for a media asset (legacy alias for get_media_preview) |
+| `media_thumbnail` | Retrieve a thumbnail URL for a media asset (legacy alias for get_media_thumbnail) |
+| `metadata_media` | List media assets for an ad account (legacy alias for get_media) |
+| `metadata_segments` | List audience segments for an ad account (legacy alias for get_segments) |
+| `stats` | Retrieve performance statistics for an ad account (legacy alias for get_adaccount_stats) |
+
+</details>
 
 ### Write Actions (8)
 
